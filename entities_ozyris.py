@@ -34,7 +34,7 @@ function ENT:Initialize()
 end
 
 function ENT:Touch(v)
-	if v:IsPlayer() or v:IsValid() or v:IsNextBot() then 
+	if v:IsPlayer() or v:IsNPC() or v:IsNextBot() then 
 		v:TakeDamage(150, ply, ply)
 	end 
 end 
