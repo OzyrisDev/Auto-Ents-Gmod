@@ -7,8 +7,9 @@ Create Ents automatically for you
 
 ## 🔥 Features
 - create file directories automatically 
-- Detection when the entitie interact with a player or a npc.
-
+- Detection when the entitie interact with a player or a npc + damage.
+- Auto Delete when the entitie interact with a wall.
+  
 ## ✍️ Usage
 1. just start `entities_ozyris.py` file
 
